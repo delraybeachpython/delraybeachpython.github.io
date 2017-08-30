@@ -1,0 +1,20 @@
+# Site Info
+title: Delray Beach Python Meetup
+description: > # this means to ignore newlines until "baseurl:"
+  Coding challenges and a leaderboard for the Delray Beach Python Meetup.
+url: http://almvision.org
+
+# Site configurations 
+paginate: 5
+permalink: pretty
+markdown: kramdown
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+version: 1.0.0
+
+# Puglins
+# google_analytics_token: 'UA-105313926-1' # leave blank if you don't want google analytics
+# disqus_short_name: 'http-jamesolejar-com' # leave blank if you don't want disqus
