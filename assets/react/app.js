@@ -1,5 +1,6 @@
 var CODERS = [
- {id: 1, name: 'James Olejar', score: 0},
+ {id: 1, name: 'James Olejar', score: 0, link: 'http://google.com'},
+ {id: 2, name: 'Patrick Stinus', score: 0, link: 'http://google.com'},
 ];
   
 function Stats(props) {
