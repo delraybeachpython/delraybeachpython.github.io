@@ -1,5 +1,5 @@
 var CODERS = [
- {id: 1, name: 'James Olejar', score: 0, link: 'http://google.com'},
+ {id: 1, name: 'James Olejar', score: 10, link: 'http://google.com'},
  {id: 2, name: 'Patrick Stinus', score: 0, link: 'http://google.com'},
 ];
   
@@ -15,15 +15,15 @@ function Stats(props) {
       <tbody>
         <tr>
           <td>Coders:</td>
-          <td>{totalCoders}</td>
+          <td className={'score-red'}>{totalCoders}</td>
         </tr>
         <tr>
           <td>Leader:</td>
-          <td>{currentLeader ? currentLeader.name : 'None'}</td>
+          <td className={'score-red'}>{currentLeader ? currentLeader.name : 'None'}</td>
         </tr>
         <tr>
           <td>Total Points:</td>
-          <td>{totalPoints}</td>
+          <td className={'score-red'}>{totalPoints}</td>
         </tr>
       </tbody>
     </table>
